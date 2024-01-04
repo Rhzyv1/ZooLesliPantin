@@ -6,23 +6,13 @@ html , body{ max-width: 100% !important;
     overflow-x: hidden !important;}
 
 body{
-background: background: rgb(255, 255, 255);
-}
-
-@font-face{font-family:ModernSans-Light ;
-src:url(../../fonts/zoo/ModernSans-Light.otf);}
-
-
-@font-face{font-family:Quenda-Medium;
-src:url(../../fonts/zoo/Quenda-Medium.otf);}
-
+background: background: rgb(255, 255, 255);}
 
 @font-face{font-family:HindMadurai-Medium;
-src:url(../../fonts/zoo/HindMadurai-Regular.ttf);}
+src:url( ../fonts/didactgothic.ttf);}
 
 html::-webkit-scrollbar{
-width: 0.5vw;
-}
+width: 0.5vw;}
 
 
 html::-webkit-scrollbar-thumb{  

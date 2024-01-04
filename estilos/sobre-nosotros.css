@@ -6,26 +6,26 @@ html , body{ max-width: 100% !important;
     overflow-x: hidden !important;}
 
 
-@font-face{font-family:ModernSans-Light ;
-src:url(../../fonts/zoo/ModernSans-Light.otf);}
+
+@font-face{font-family:Inika-Regular;
+src:url( ../fonts/Inika-Regular.ttf);}
 
 
-@font-face{font-family:Quenda-Medium;
-src:url(../../fonts/zoo/Quenda-Medium.otf);}
+@font-face{font-family:STREET;
+src:url( ../fonts/STREET.ttf);}
 
 
 @font-face{font-family:HindMadurai-Medium;
-src:url(../../fonts/zoo/HindMadurai-Regular.ttf);}
+src:url( ../fonts/didactgothic.ttf);}
+
 
 html::-webkit-scrollbar{
-width: 0.5vw;
-}
+width: 0.5vw;}
 
 
 html::-webkit-scrollbar-thumb{  
 border-radius: 20px;
-background-image: linear-gradient(to right top, #0c230d, #0c3311, #0a4313, #085413, #056612, #046e20, #02762d, #007e3a, #007d4f, #007c5f, #15796b, #327672);
-}
+background-image: linear-gradient(to right top, #0c230d, #0c3311, #0a4313, #085413, #056612, #046e20, #02762d, #007e3a, #007d4f, #007c5f, #15796b, #327672);}
 
 
 .what{position: fixed;
@@ -80,57 +80,56 @@ color: white;
 font-family:HindMadurai-Medium;padding:2vh 5vh;text-align: center}
 
 
+
 .logo{ display: flex; margin: auto;
 justify-content: center;
-align-items: center;
-background-color: rgb(34, 98, 17);
-width: 30vw;
+align-items: center;;
 border-radius:0px 0px 20px 20px ;
-padding: 1vh 0.5vh; 
-box-shadow: 5px 5px 5px black}
+padding: 5px; 
+box-shadow: 10px 4px 10px black;
+width: 380px;
+background-image: linear-gradient(to right top, #0c230d, #0c3311, #0a4313, #085413, #056612, #046e20, #02762d, #007e3a, #007d4f, #007c5f, #15796b, #327672);}
 
-.logo img{width: 4vw;
-height: 6vh}
+.logo img{width: 70px;
+height: 60px}
 
-.logo h1{
-font-family:Quenda-Medium; 
-font-size: 5vh; 
-padding: 1vh;
-color: black}
-
+.logo h1{ 
+font-size: 33px; 
+padding:5px  10px;
+color:white;
+font-family:Inika-Regular}
 
 .list{display: flex ;
-position: absolute; top: 15vh;
 position: center; 
  ;width: 100% ;
 align-items: center;
 justify-content: center;
-margin: 2vh auto;}
+margin: 40px auto;}
 
 
 .list ul {position: absolute; 
 background: rgba(5, 4, 4,0.6);
-padding: 1vh;
-border-radius: 5vh;
+padding: 5px 30px;
+border-radius:20px;
 border: 1px solid rgba(103, 194, 17,0.2)}
 
 
 .list ul li {display: inline-block;
  margin: 0px 2px;
- padding: 0.6vh;
+ padding:5px;
  text-decoration: none;}
 
 .list ul li a {
 font-family: HindMadurai-Medium;
 text-decoration: none; 
 color: white;
-font-size:3vh;
+font-size:18px;
 margin-top: 4px;
-padding:0vh 2vh;}
+padding:0vh}
 
 .list ul li a:hover{cursor: pointer;
    ;  transition-delay: 100ms;
-   border-bottom: 0.5vh solid green}
+   border-bottom: 1px solid green}
 
 
 .origen{display: grid;
