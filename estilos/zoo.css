@@ -34,8 +34,6 @@ src:url(../fonts/Author-Regular.otf);}
 ;src:url(../fonts/Overpass-Regular.ttf);}
 
 
-header{background: rgba(5, 4, 4,1);}
-
 .logo{ display: flex; margin: auto;
 justify-content: center;
 align-items: center;;
@@ -90,30 +88,36 @@ color: white}
    color: green}
 
 
-.cont{ background: rgb(18, 242, 50); 
+.cont{; 
 padding:5px 5px;
 border-radius: 10px }
 
 .prin{background: url(../img/slider/0.webp);
     background-size: 100% 650px;
-    background-color: rgba(0,0,0,0.3);
-    animation:  animate 60s infinite;
+    animation:  animate 20s infinite;
     height: 650px;
     margin: 0 auto;}
 
   @keyframes animate{
 
   25%{ background: url(../img/slider/1.webp);
-  background-size: 100% 100%;}
+  background-size: 100% 650px;
+transition: all 1s ease}
 
-    50%{ background: url(../img/slider/2.webp);
-   background-size: 100% 100%;}
+    50%{ background: url(../img/slider/5.webp);
+   background-size: 100% 650px;;
+
+transition: all 1s ease}
 
 75%{ background: url(../img/slider/3.webp);
-   background-size: 100% 100%;}
+   background-size: 100% 650px;
 
-100%{ background: url(../img/slider/4.webp);
-   background-size: 100% 100%;}
+transition: all 1s ease}
+
+100%{ background: url(../img/slider/0.webp);
+  background-size: 100% 650px;
+
+transition: all 1s ease}
                     }  
 
 .text{width: 90%;
@@ -499,10 +503,10 @@ max-width: 800px}
 .galeria{display: grid;
 grid-template-columns: repeat(2,1fr);
 width:85%; margin: 20px auto;
-max-width: 1300px}
+max-width: 1000px}
 
 .galeria .texto{width: 100%;
-background: rgb(0, 14, 20);
+background:#0c231d;
 color: white;
 padding: 10px 20px;
 height: 180px}
@@ -817,26 +821,25 @@ max-width: 1200px;
 font-family:Ranade-Regular;
 }
 
-.une{padding: 10vh 2vh}
+.une{max-width: 1000px;
+margin: 60px auto}
 
-.une h4{font-size: 6vh;
+.une h4{font-size: 40px;
      text-align: center;
-     color: black;
-font-family:Author-Regular;}
+     color: black;font-family:PilcrowRounded-Regular;}
 
 
-.une h5{font-size: 4.5vh;
-     font-family: ModernSans-Light;
+.une h5{font-size:25px;
      text-align: center;
-     padding-top: 4vh;
+     padding-top: 10px;
      color: black;
-     width: 60%;
-     margin: 0 auto }
-
+     width: 80%;
+     margin: 0 auto;
+font-family:Ranade-Regular;}
 
 figure{position: relative;}
 
-.lugar{background: url(../../img/zoo/mapa.jpg);
+.lugar{background: url(../img/mapa.jpg);
 background-size: 100% 100%;
 background-size: cover;}
 
