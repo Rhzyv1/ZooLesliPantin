@@ -1,0 +1,324 @@
+*{margin:0;
+   padding:0;
+box-sizing: border-box;}
+
+html::-webkit-scrollbar{width: 10px}
+
+html::-webkit-scrollbar-thumb{  
+background:rgba(27,109,9,1);}
+
+html::-webkit-scrollbar-thumb :hover{  
+border-radius: 20px;
+background: red}
+
+header{height:650px}
+
+.header-inicio{
+background: url(../img/slider/0.jpg);
+background-size: 100% 700px;
+height:100%;
+background-repeat: no-repeat;
+animation:  animate 30s infinite;}
+
+@keyframes animate{
+20%{ background: url(../img/slider/0.jpg);
+background-size: 100% 700px;}
+
+40%{ background: url(../img/slider/1.jpg);
+background-size: 100% 700px}
+
+60%{ background: url(../img/slider/2.jpg);
+background-size: 100% 700px}
+
+80%{ background: url(../img/slider/3.webp);
+background-size: 100% 700px}  
+
+100%{ background: url(../img/slider/4.webp);
+background-size: 100% 700px}}  
+
+.nav-fondo{
+background:rgba(27,49,49,0.93);
+color: white;}
+
+.nav-fondo .verde{color:green}
+
+.nav-fondo .inicio-datos{display: grid;
+grid-template-columns: repeat(3,1fr);	
+font-size: 14px;
+font-family: arial;
+grid-gap: 0px;
+margin: 0 auto;
+max-width: 1400px;
+padding-top: 15px;
+padding-bottom: 5px;
+border-bottom: 1px solid rgba(27,139,119,0.7);}
+
+.nav-fondo .inicio-datos p{color:#ddd8ce;
+font-size: 15px}
+
+.nav-fondo .inicio-datos p:hover{color:white;
+cursor: pointer;}
+
+.nav-fondo .inicio-datos p b{color:white;
+margin-left: 5%;
+font-size: 15px}
+
+.nav-fondo .inicio-redes {display:flex;
+margin-left: 150px}
+
+.nav-fondo .inicio-redes ul {display:inline-flex;}
+
+.nav-fondo .inicio-redes li{
+margin-left: 15px;
+list-style: none;
+margin-top: -1px}
+
+.nav-fondo .inicio-redes li i{
+font-size: 23px;
+display: flex;justify-content: center;
+align-items: center;;
+cursor: pointer;}
+
+.nav-fondo .inicio-redes li .fa-instagram:hover{color:#9E37B8;}
+
+.nav-fondo .inicio-redes li .fa-facebook:hover{color:#4267B2;}
+
+.nav-fondo .inicio-redes li .fa-whatsapp:hover{color:green}
+
+.nav-fondo .inicio-redes li .fa-youtube:hover{color:red }
+
+.nav-fondo .inicio-zoologico{display: grid;
+grid-template-columns: repeat(3,1fr);	
+align-items: center;
+justify-content: center;
+padding: 10px 5px;
+max-width: 95%;
+font-size: 13px;
+font-family: arial;
+grid-gap: 0px;
+margin: 0 auto;
+max-width: 1400px;}
+
+.nav-fondo .inicio-zoologico .logo {display: flex;
+padding: 0px 0px}
+
+.nav-fondo .inicio-zoologico .logo {
+font-size: 10px}
+
+.nav-fondo .inicio-zoologico .logo img{width: 60px;
+height: 45px}
+
+.nav-fondo .inicio-zoologico .logo h1{display: flex;
+justify-content: center;
+align-items: center;
+padding:0px 5px;
+font-size: 25px}
+
+
+.nav-fondo .inicio-zoologico .menu nav ol{display:flex;
+margin: 0 auto;
+justify-content: center;
+align-items: center;
+;margin-top: 8px}
+
+.nav-fondo .inicio-zoologico .menu nav ol li{
+margin:0px 5px;
+list-style: none;
+font-size: 17px;
+border-bottom: 2px solid transparent;
+cursor: pointer;
+padding: 0px 5px;}
+
+
+
+.nav-fondo .inicio-zoologico .menu nav ol li:hover{
+list-style: none;
+font-size: 17px;
+border-bottom: 2px solid rgba(27,209,129,1) ;
+transition:all 2s ease}
+
+
+.nav-fondo .inicio-zoologico button{
+margin: 0 auto;
+background:green;
+padding: 10px;
+color: white;
+display: flex;
+text-align: center;
+border: none;
+border-radius:5px;
+font-size: 15px;
+margin-right:10%}
+
+.nav-fondo .inicio-zoologico button i{
+padding-left:10px;
+text-shadow: 0px 0px 10px green;
+font-size: 18px}
+
+.nav-fondo .inicio-zoologico button:hover{
+background: rgba(03, 175, 108,1);
+cursor:pointer;
+transition: all 1s ease;
+color:black}
+
+.header-inicio .inicio-saludo {
+width: 95%;
+font-family: arial;
+grid-gap: 0px;
+margin: 0 auto;
+padding: 10px ;
+max-width: 1400px;
+color: white;
+margin-top:170px}
+
+
+.header-inicio .inicio-saludo span{
+font-size: 23px;
+text-shadow: 0px 0px 1px gray;
+color:rgba(07,199,20,1)}
+
+
+.header-inicio .inicio-saludo h2{
+font-size: 65px;
+text-shadow: 0px 10px 20px black}
+
+.header-inicio .inicio-saludo p{font-size: 23px;
+text-shadow: 0px 00px 20px black;
+margin: 10px 0px}
+
+.header-inicio .inicio-saludo .botones{margin:25px 10px}
+
+.header-inicio .inicio-saludo .botones a{
+	background: white;
+	color: black;
+	padding: 10px 40px;
+text-decoration: none;
+box-shadow: 0px 0px 3px white;
+border-radius: 5px;
+margin: 0px 5px}
+
+
+.header-inicio .inicio-saludo .botones .verde{
+	background:green;
+	color: white;
+	padding:10px 40px;
+text-decoration: none;
+box-shadow: 0px 0px 3px;
+border-radius: 5px;
+margin: 0px 5px}
+
+.header-inicio .inicio-saludo .botones .verde:hover{
+background: rgba(03, 175, 108,1);
+cursor:pointer;
+transition: all 1s ease;
+color:black;
+box-shadow: 0px 0px 3px green;}
+
+.redes-abaj{margin-top: 70px;
+margin-left: -20px}
+
+.redes-abaj ul{display: flex;}
+
+.redes-abaj ul li{
+margin-right: 20px;
+font-size:20px;
+text-shadow: 0px 0px 20px black;
+list-style: none;
+cursor: pointer;
+border-bottom: 2px solid transparent}
+
+.redes-abaj ul  .instagram:hover{color:#FF00BF;
+border-bottom: 2px solid;
+text-shadow: 0px 0px 10px black}
+
+.redes-abaj ul .facebook:hover{color:#4267B2;:#FF00BF;
+border-bottom: 2px solid;
+text-shadow: 0px 0px 10px black}
+
+.redes-abaj ul .whastapp:hover{color:green ;
+border-bottom: 2px solid;
+text-shadow: 0px 0px 10px black}
+
+.redes-abaj ul .youtube:hover{color:red ;
+border-bottom: 2px solid;
+text-shadow: 0px 0px 10px black}
+
+
+.bienvenida{max-width:1400px;
+margin: 20px auto;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+font-family: arial}
+
+
+.quienes-somos-img{width: 90%}
+
+.quienes-somos-img figure{background: green;
+width: 400px;
+height: 300px}
+
+.quienes-somos-img figure img{
+width: 350px;
+height: 250px}
+
+
+
+.servicios{width: 100%;}
+
+.img-back{background: url(../img/fondos/fondo-planta2.png);
+background-size: 100% 300px;	
+height: 300px;
+background-repeat: no-repeat;
+max-width: 1400px;
+margin: 20px auto}
+
+.img-back span{color:green; 
+font-size: 20px;
+display: flex;
+justify-content: center;
+font-family: arial;
+padding-top: 50px}
+
+.img-back h3{color:black; 
+font-size: 35px;
+display: flex;
+justify-content: center;
+font-family: arial;
+padding-top: 10px;
+width: 600px;
+text-align: center;
+margin: 0 auto}
+
+
+.servicios .serv{display: grid;
+grid-template-columns: repeat(3,1fr);
+text-align: center;
+margin: 0 auto;
+width: 80%;
+margin-top: -120px;
+margin-bottom: 40px;
+grid-gap: 40px;
+max-width: 1100px;
+}
+
+.servicios .serv div{box-shadow: 0px 0px 4px black;
+background: rgba(0,0,0,0.1);}
+
+
+
+.servicios .serv div i{color: green;
+background: rgba(0,0,0,0.9);
+padding: 10px 0px;
+margin:0 auto;
+margin-top: 10px;
+display: flex;
+width: 50px;
+font-size:25px ;
+text-align:center;
+border-radius: 50%;
+justify-content: center;align-items: center;}
+
+footer{
+background:rgba(27,89,49,1);
+width: 100%;
+height:200px}
